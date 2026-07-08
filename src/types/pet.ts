@@ -19,7 +19,6 @@ export interface IPet {
   status?: IStatus;
 }
 
-
 // Payload yang dikirim ke PUT /pet (update pet yang sudah ada)
 export type IUpdatePetPayload = IPet;
 
