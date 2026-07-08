@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useCallback } from "react";
 import type { ReactNode } from "react";
-import type { IPet, IUpdatePetPayload } from "../types/task";
-import { getPetById, updatePet as updatePetApi } from "../utils/pet.utils";
+import type { IPet, IUpdatePetPayload } from "../../../types/pet";
+import { getPetById, updatePet as updatePetApi } from "../utils/pet-utils";
 
 interface IPetContextValue {
   pet: IPet | null;
