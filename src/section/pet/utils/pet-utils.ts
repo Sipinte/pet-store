@@ -1,11 +1,11 @@
-import { PET_ENDPOINTS } from "../constant/pet.constant";
+import { PET_ENDPOINTS } from "../constant/pet-constant.ts";
 import type {
   IPet,
   IUpdatePetPayload,
   ICreatePetPayload,
   IStatus,
   IPetApiError,
-} from "../types/task";
+} from "../../../types/pet";
 
 async function handleResponse<T>(res: Response): Promise<T> {
   if (!res.ok) {
