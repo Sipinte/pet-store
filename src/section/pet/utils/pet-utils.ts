@@ -1,4 +1,4 @@
-import { PET_ENDPOINTS } from "../constant/pet.constant";
+import { PET_ENDPOINTS } from "../constant/pet-constant.ts";
 import type {
   IPet,
   IUpdatePetPayload,
