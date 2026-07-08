@@ -5,7 +5,7 @@ import type {
   ICreatePetPayload,
   IStatus,
   IPetApiError,
-} from "../types/task";
+} from "../../../types/pet";
 
 async function handleResponse<T>(res: Response): Promise<T> {
   if (!res.ok) {
